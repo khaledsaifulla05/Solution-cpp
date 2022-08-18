@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main ()
+{
+    int a,b=0;
+    cin>>a;
+    string s;
+    for(;a--;)
+    {
+        cin>>s;
+        if(s[1]=='+')
+        {
+            ++b;
+        }
+        else
+        {
+            --b;
+        }
+    }
+
+    cout<<b<<endl;
+
+    return 0;
+}
